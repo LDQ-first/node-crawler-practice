@@ -34,6 +34,8 @@ const srcToImg = require('./helper/srcToImg')
     console.log(`get ${srcs.length} images, start download\n`)
 
     srcs.forEach(async (src) => {
+      // sleep
+      await page.waitFor(200)
       await srcToImg(src, mn)
     })
 
