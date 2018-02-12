@@ -1,4 +1,10 @@
 screenshot/*.png
+mn/*.png
+mn/*.jpg
+mn/*.jpeg
+mn/*.gif
+mn/*.svg
+mn/*.webp
 
 # Logs
 logs
